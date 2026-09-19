@@ -1,0 +1,40 @@
+{
+  "format": "adstudioh.best_ads.v2",
+  "inspired_by": "Cosmos + Reve + JEV axes",
+  "fields": {
+    "id": "slug unique key",
+    "title": "campaign or spot name",
+    "brand": "advertiser",
+    "product": "optional product/line",
+    "year": "int or null",
+    "country": "primary market",
+    "medium": "list: TV, print, OOH, digital, experiential, film, social",
+    "agency": "lead agency name",
+    "agency_network": "optional holding/network",
+    "creatives": "list of {name, role}",
+    "production_company": "optional",
+    "music": "optional composer/track note",
+    "awards": "notable awards short list",
+    "tags": "style/era/mood tags",
+    "style_notes": "1 line visual/art-direction note",
+    "why_iconic": "1-2 sentences",
+    "links": {
+      "primary": "best single source page",
+      "case_study": "agency or brand case if any",
+      "video": "watch URL if known",
+      "archive": "museum/award archive",
+      "wikipedia": "if useful",
+      "image_ref": "stable page that shows the creative visually"
+    },
+    "sources": "list of URLs used to verify credits",
+    "style_bar": "bool — curated Style bar feed",
+    "source": "award_archive | brand | museum | agency | publication | wikipedia | other",
+    "format": "Static image | UGC testimonial | Talking head | Product demo | Cinematic film | Print poster | OOH | Mashup / compilation | Interactive / digital | Identity / logo | Other",
+    "awareness_primary": "Unaware | Problem aware | Solution aware | Product aware | Most aware",
+    "awareness_mix": "{unaware, problem, solution, product, most} floats ~sum 1.0",
+    "dissection": "{headline, super, product, talent, setting, logo, end_card, vo} string|null",
+    "boards": "list of board ids from explore/reference-boards.json",
+    "thumbnail": "local thumb path or null"
+  },
+  "import_hint": "Load best-ads.json into AdStudioh Explore. Style bar = style_bar true; Library = all; boards from boards[]."
+}
