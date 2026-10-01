@@ -1,3 +1,13 @@
+# DUD — AdStudioh reference pack only
+
+> **This is not the AdStudioh application.** This repository contains reference material, not the app or its X likes importer.
+>
+> **App repository supplied by the owner:** [SteveBlackboxapi/ad-studioh](https://github.com/SteveBlackboxapi/ad-studioh) — note the hyphen. Confirm access there before making app, Inbox, or X import changes.
+>
+> This reference pack is retained for reference only. Its original documentation follows.
+
+---
+
 # AdStudioh
 
 Cosmos density × Reve actionability × Ad Age provenance.
